@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+/* font-family: "League Spartan", serif; */
+
+body {
+	margin: 0;
+	font-family: "League Spartan", serif;
+}
+
+.p1 {
+	display: flex;
+	background-color: rgba(55, 59, 83, 1);
+	justify-content: space-between;
+	height: 11vh;
+	overflow: hidden;
+}
+.p1-1 {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.pp {
+	padding-right: 20px;
+	padding-left: 5px;
+}
+.pp img {
+	border-radius: 25px;
+}
+
+hr {
+	height: 100%;
+	border: solid 1px rgba(73, 78, 110, 1);
+}
+
+.font-violet {
+	background-color: rgba(124, 93, 250, 1);
+	position: relative;
+	overflow: hidden;
+	border-radius: 0% 30px 30px 0%;
+}
+.font-violet-2 {
+	position: relative;
+	z-index: 0;
+	bottom: -40px;
+}
+.font-violet-2 img {
+	width: 100%;
+}
+
+.icone {
+	position: absolute;
+	z-index: 1;
+	left: 27%;
+	bottom: 20%;
+}
+
+.p2 {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 25px;
+}
+.p2-1 {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.p2-2 {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.p2-3 {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	border-radius: 40px;
+	background-color: rgba(124, 93, 250, 1);
+	padding: 0px 7px;
+}
+.p2-3 p {
+	padding-top: 5px;
+}
+.p2-3 h2 {
+	color: white;
+}
+
+.plus {
+	padding: 0px 11px;
+	margin: 0;
+	color: rgba(124, 93, 250, 1);
+	background-color: white;
+	border-radius: 50px;
+	font-size: 40px;
+}
+
+.no-espace {
+	margin: 0;
+}
+
+.p3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 150px;
+}
+.p3-1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.gros-texte {
+	font-size: 30px;
+	text-align: center;
+}
+.p3-1 p {
+	text-align: center;
+	width: 70%;
+}
+
+p {
+	color: rgba(136, 142, 176, 1);
+	font-size: 19px;
+}
+
+.gras {
+	font-weight: 900;
+}
+
+.tablaite {
+	display: none;
+}
+
+@media screen and (min-width: 376px) {
+	.tablaite {
+		display: flex;
+	}
+	.p2-2 h3 {
+		display: flex;
+		gap: 5px;
+		font-size: 15px;
+	}
+	.p2-3 h2 {
+		display: flex;
+		gap: 5px;
+		font-size: 15px;
+		padding: 3px 8px;
+	}
+	.plus {
+		padding: 0px 9px;
+		font-size: 33px;
+	}
+	.p2 h1 {
+		font-size: 45px;
+	}
+	.p2 {
+		margin-top: 85px;
+	}
+	.gros-texte {
+		font-size: 27px;
+	}
+	.p3-1 p {
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	.tout {
+		display: flex;
+		flex-direction: row;
+		height: 100vh;
+	}
+	.tout-2 {
+		display: block;
+
+		width: 80%;
+	}
+	.p1 {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		border-radius: 0% 30px 30px 0%;
+	}
+	.p1-1 {
+		display: flex;
+		flex-direction: column;
+	}
+	hr {
+		width: 100%;
+	}
+	.font-violet {
+		height: 12%;
+	}
+	.font-violet-2 {
+		bottom: -45px;
+	}
+	.pp {
+		padding-bottom: 25px;
+		padding-left: 15px;
+	}
+}
